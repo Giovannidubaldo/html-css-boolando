@@ -84,8 +84,23 @@ main{
 
 .discount{
     background-color: red;
+    color: white;
     padding: 5px;
     position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.text-green{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+
+.p-left{
     left: 0;
     bottom: 30px;
 }
