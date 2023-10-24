@@ -75,7 +75,7 @@ main{
 
 .image{
     height: 400px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .product{
@@ -103,4 +103,34 @@ main{
 .p-left{
     left: 0;
     bottom: 30px;
+}
+
+.heart{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: center;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.product:hover .show{
+    display: none;
+}
+
+.product:hover .hidden{
+    display: block;
+}
+
+.product:hover .heart{
+    color: red;
 }
