@@ -81,3 +81,11 @@ main{
 .product{
     position: relative;
 }
+
+.discount{
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
