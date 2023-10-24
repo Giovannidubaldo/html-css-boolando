@@ -51,3 +51,33 @@ li{
     max-width: 100%;
     max-height: 50px;
 }
+
+/* MAIN */
+main{
+    padding-top: 100px;
+}
+
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+}
+
+.image{
+    height: 400px;
+    max-width: 100%;
+}
+
+.product{
+    position: relative;
+}
