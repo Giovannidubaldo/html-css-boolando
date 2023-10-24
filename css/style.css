@@ -55,6 +55,7 @@ li{
 /* MAIN */
 main{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .container-main{
@@ -133,4 +134,11 @@ main{
 
 .product:hover .heart{
     color: red;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
